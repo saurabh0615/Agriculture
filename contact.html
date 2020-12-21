@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 mainnav" id="navbarMain">
+        <div class="container  pl-md-5 fnt">
+            <a class="navbar-brand" href="#page-top">
+                <img src="img/Agrihomepage/royal-globe-blue.png" height="50">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item text-whit px-3 "><a class="nav-link" href="home.html">HOME</a></li>
+                    <li class="nav-item text-white  px-3"><a class="nav-link" href="about.html">ABOUT US</a></li>
+                    <li class="nav-item text-white  px-3 "><a class="nav-link" href="product.html">PRODUCTS</a></li>
+                    <li class="nav-item text-white  px-3 active"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- contact banner section start -->
+    <div class="contact-banner">
+        <div class="container mainnav p-md-5 p-6 ">
+            <div class="row">
+                <div class="col-xl-6">
+                    <h5 class="textgreen">Contact Us</h5>
+                    <h2 class="text-white font-weight-bolder pb-2 display-5">Post your requirement</h2>
+                </div>
+            </div>
+            <div class="bg-white contact-button mx-lg-5 pt-5 pb-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 px-2">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="Name" class="text-black font-weight-bold fnt">Name*</label>
+                                <input type="text" class="form-control" placeholder="Enter your Name" id="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="text-black font-weight-bold fnt">Phone No*</label>
+                                <input type="text" class="form-control text-muted" placeholder="Enter your Phone Number" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-black font-weight-bold fnt">Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your Email address" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="products" class="text-black font-weight-bold fnt">Select Products*</label>
+                                <div class="accordion border" id="accordionExample">
+                                    <div class="card border-bottom">
+                                        <div class="card-header border-0 bg-white p-0" id="heading">
+                                            <div class="mb-0 w-100 px-3 py-1 text-muted fnt-14 pb-1" data-toggle="collapse" data-target="#collapseO" aria-expanded="false" aria-controls="collapseO">
+                                                Choose your products
+                                                <i class="fa fa-angle-down float-right pr-2"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border-bottom">
+                                        <div class="card-header border-0 bg-white p-0" id="headingOne">
+                                            <div class="mb-0 w-100 prdbrd textgreen px-3 py-1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                Spices
+                                                <i class="fa fa-angle-down float-right pr-2"></i>
+                                            </div>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body select-product pl-3 text-muted pb-0 pt-2">
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Turmeric</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Nutmeg</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Red Chilli</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cloves</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Fenugreek Seeds</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cinnamon</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cumin</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Black Pepper</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row pt-0">
+                                                    <div class="col-11">Cardomom</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox">
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border-bottom">
+                                        <div class="card-header border-0 bg-white p-0" id="headingTwo">
+                                            <div class="mb-0 w-100 prdbrd textgreen collapsed px-3 py-1" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Dryfruits
+                                                <i class="fa fa-angle-down float-right pr-2"></i>
+                                            </div>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body select-product text-muted pb-0 pt-2">
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Turmeric</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Nutmeg</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Red Chilli</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cloves</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Fenugreek Seeds</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cinnamon</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cumin</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Black Pepper</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row pt-0">
+                                                    <div class="col-11">Cardomom</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox">
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border-bottom">
+                                        <div class="card-header  border-0 bg-white p-0" id="headingThree">
+                                            <div class="mb-0 w-100 prdbrd collapsed textgreen px-3 py-1" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Fruits & Vegetables
+                                                <i class="fa fa-angle-down float-right pr-2"></i>
+                                            </div>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body select-product text-muted pb-0 pt-2">
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Turmeric</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Nutmeg</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Red Chilli</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cloves</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Fenugreek Seeds</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cinnamon</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cumin</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Black Pepper</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row pt-0">
+                                                    <div class="col-11">Cardomom</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox">
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card border-0">
+                                        <div class="card-header  border-0 bg-white p-0" id="headingFour">
+                                            <div class="mb-0 w-100 prdbrd collapsed textgreen px-3 py-1" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                Grains
+                                                <i class="fa fa-angle-down float-right pr-2"></i>
+                                            </div>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                            <div class="card-body  select-product text-muted pb-0 pt-2">
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Turmeric</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Nutmeg</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Red Chilli</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cloves</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Fenugreek Seeds</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cinnamon</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Cumin</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row border-bottom pb-2">
+                                                    <div class="col-11">Black Pepper</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox" >
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                                <label class="conta row pt-0">
+                                                    <div class="col-11">Cardomom</div>
+                                                    <div class="col-1">
+                                                        <input type="checkbox">
+                                                      <span class="checkmarka"></span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="pincode" class="text-black font-weight-bold fnt">Pincode</label>
+                                <input type="text" class="form-control " placeholder="Enter the pincode" id="pincode">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment" class="text-black font-weight-bold fnt">Description</label>
+                                <textarea class="form-control" placeholder="Write about quantity, quality or special requirement if any" rows="5" id="comment" name="text"></textarea>
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input rounded-0 fnt" type="checkbox">  I accept terms and condition
+                                </label>
+                            </div>
+
+                            <div class="radio">
+                                <input type="radio" name="radiogroup1" id="rd1">
+                                <label for="rd1">I'm a Buyer</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="radiogroup1" id="rd2">
+                                <label for="rd2">I'm a Seller</label>
+                            </div>
+                            <div class="row mb-4 mt-3 justify-content-center">
+                                <div class="col-md-7 text-center">
+                                    <a href="" class="btn brdrd text-white bg-green px-5 btn-block">Submit your query</a href="">
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 ml-2 mb-3">
+                <div class="col-xl-6">
+                    <h5 class="textgreen">Contact Us</h5>
+                    <h2 class="text-white font-weight-bolder pb-2 mbr-fonts-style display-5">Get in touch</h2>
+                </div>
+            </div>
+            <div class="bg-white mx-lg-5 px-lg-5 p-md-4 p-3">
+                <div class="row mb-2">
+                    <div class="col">
+                        <h5 class="textgreen font-weight-bolder">Find us here</h5>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-xl-7 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.279909073!2d-74.25987368715491!3d40.69767006458873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1608276414664!5m2!1sen!2sin"
+                            width="450" class="rounded" height="255" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-xl-4 ml-xl-5 ml-lg-0 mt-xl-0 mt-4">
+                        <div class="fs-widget">
+                            <p class="mb-3 text-muted contact-text ">Lorem ipsum dolor sit amet, cons ctetur adipiscing elit, sed do eius mod tempor idunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exer tation ullamco laboris nisi ut ali</p>
+                            <ul>
+                                <li><a href="" class="text-muted  font-weight-bolder"><i class="fa fa-phone textgreen fa-lg pr-3"></i>+123 456 7890</a></li>
+                                    <li><a href="" class="text-muted  font-weight-bolder"><i class="fa fa-envelope-o textgreen  fa-lg pr-3" ></i>name@abc.xyz</a></li>
+                                    <li><a href="" class="text-muted  font-weight-bolder"><i class="fa fa-map-marker textgreen fa-lg pr-3 pl-1"></i> No. street, city, country <br><p class="pl-6">Zip code XXXX </p> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contact banner section end -->
+
+            <div class="prod-img">
+
+            </div>
+
+            <!-- Footer Section start -->
+
+            <div class="bg-light">
+                <div class="container ">
+                    <div class="row pt-5 lg-4">
+                        <div class="col-lg-4 col-md-6 mb-3 mb-sm-0">
+                            <img src="img/Agrihomepage/royal-globe-blue.png" class="mb-3" height="40">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p class="text-muted line-height ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incii dunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud</p>
+                                </div>
+                            </div>
+                            <div class="row pb-md-3 pd-sm-0">
+                                <div class="col">
+                                    <div class="social-links mt-3">
+                                        <a href="#" class="facebook"><i class="fa fa-facebook  textgreen fa-lg pr-4"></i></a>
+                                        <a href="#" class="twitter"><i class="fa fa-twitter textgreen fa-lg pr-4"></i></a>
+                                        <a href="#" class="envelope"><i class="fa fa-envelope textgreen fa-lg pr-4" ></i></a>
+                                        <a href="#" class="instagram"><i class="fa fa-instagram textgreen fa-lg pr-4"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 ">
+                            <div class="fs-widget">
+                                <h6 class="mb-3 font-weight-bolder ">Company</h6>
+                                <ul>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                    <li><a href="">Terms</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2  col-md-6">
+                            <div class="fs-widget">
+                                <h6 class="mb-3 font-weight-bolder">Customer Support</h6>
+                                <ul>
+                                    <li><a href="">Help and Ordering</a></li>
+                                    <li><a href="">Return & Cancellation</a></li>
+                                    <li><a href="">Delivery Schedule</a></li>
+                                    <li><a href="">Get a Call</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 ml-xl-5 col-md-6">
+                            <div class="fs-widget">
+                                <h6 class="mb-3 font-weight-bolder">Contact</h6>
+                                <ul>
+                                    <li><a href="tel:123-456-7890" class="text-muted  font-weight-bolder"><i class="fa fa-phone textgreen fa-lg pr-3"></i>+123 456 7890</a></li>
+                                    <li><a href="mailto: abc@example.com" class="text-muted  font-weight-bolder"><i class="fa fa-envelope-o textgreen  fa-lg pr-3" ></i>name@abc.xyz</a></li>
+                                    <li><a href="https://goo.gl/maps/h1BWjD7uSPmcRiMaA" class="text-muted  font-weight-bolder"><i class="fa fa-map-marker textgreen fa-lg pr-3 pl-1"></i> No. street, city, country <br><p class="pl-6">Zip code XXXX </p> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conatiner-fluid boder-top px-5 ">
+                    <div class="row bordertop">
+                        <div class="col py-3 textgreen text-center">
+                            Copyright & 2020 . All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer section end -->
+
+            <!-- javascript section start -->
+            <script>
+                $(window).scroll(function() {
+                    var nav = $('#navbarMain');
+                    var top = 200;
+                    if ($(window).scrollTop() >= top) {
+
+                        nav.addClass('bg-white');
+
+                    } else {
+                        nav.removeClass('bg-white');
+                    }
+                });
+            </script>
+            <!-- javascript section end -->
+
+</body>
+
+</html>
