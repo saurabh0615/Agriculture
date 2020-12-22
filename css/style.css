@@ -322,17 +322,17 @@
     padding: 20px;
 }
 
-.products .content:hover {
+.products:hover .content {
     background-color: white;
+}
+
+.products:hover .content a {
+    color: rgb(7, 201, 7) !important;
+    text-decoration: none;
 }
 
 .products .content a {
     color: white;
-}
-
-.products .content:hover a {
-    text-decoration: none;
-    color: rgb(7, 201, 7);
 }
 
 .subprdimg {
@@ -470,12 +470,12 @@
     font-weight: 700;
 }
 
-input[type="radio"] {
+.contact-button input[type="radio"] {
     position: absolute;
     width: 1px;
 }
 
-.radio label:before {
+.contact-button .radio label:before {
     content: "";
     display: inline-block;
     width: 15px;
@@ -489,12 +489,12 @@ input[type="radio"] {
     background-clip: content-box;
 }
 
-.radio input:checked+label:before {
+.contact-button .radio input:checked+label:before {
     background-color: rgb(7, 201, 7);
     border: 1px solid rgb(7, 201, 7) !important;
 }
 
-.radio input:checked+label {
+.contact-button .radio input:checked+label {
     color: rgb(7, 201, 7);
     font-weight: 700;
 }
@@ -516,6 +516,15 @@ input[type="radio"] {
     color: rgb(7, 201, 7) !important;
     background-color: white !important;
     font-weight: 700;
+}
+
+.contimg .check-custom input {
+    display: none;
+}
+
+.contimg .check-custom input:checked~.checkmark {
+    background-color: rgb(7, 201, 7);
+    color: white;
 }
 
 @media screen and (max-width: 1100px) {
